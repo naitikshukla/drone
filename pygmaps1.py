@@ -69,13 +69,25 @@ class pygmaps:
 	#############################################
 	def drawmap(self, f):
 		f.write('\t\tvar centerlatlng = new google.maps.LatLng(%f, %f);\n' % (self.center[0],self.center[1]))
-		f.write('\t\tvar myOptions = {\n')
+		f.write('\t\tvar myOptions = {\n')				
 		f.write('\t\t\tzoom: %d,\n' % (self.zoom))
 		f.write('\t\t\tcenter: centerlatlng,\n')
 		f.write('\t\t\tmapTypeId: google.maps.MapTypeId.%s\n' % (self.maptype))
-		f.write('\t\t};\n')
-		f.write('\t\tvar map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);\n')
-		f.write('\t\tmap.setTilt(45);\n')
+		f.write('\t\t};\n')		#change ; to ,	-- bad idea
+		f.write('\t\tvar map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);\n')	#change ; to ,
+		# new code from here #				#added for right click event #
+		f.write('\t\tvar marker = new google.maps.Marker({\n')
+		f.write('\t\t\tmap: map,\n')
+		f.write('\t\t});\n')
+		f.write('\t\tvar infowindow = new google.maps.InfoWindow;\n')
+		f.write('\t\tmap.addListener("rightclick", function(e){\n')		
+		#f.write('\t\t\tmap.setCenter(e.latLng);\n')				#can be unmarked if you want to point the screen center to point right click
+		f.write('\t\t\tmarker.setPosition(e.latLng);\n')
+		f.write('\t\t\tinfowindow.setContent("Latitude: " + e.latLng.lat() + "<br>" + "Longitude: " + e.latLng.lng());\n')
+		f.write('\t\t\tinfowindow.open(map, marker);\n')
+		f.write('\t\t});\n')
+		# till here #
+		#f.write('\t\tmap.setTilt(45);\n')
 		f.write('\n')
 
 
