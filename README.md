@@ -8,12 +8,11 @@ Here main focus is mainly on below points:
 * Track detected human
 * Point drone to follow tracker
 * Hallway Navigation:
- * Vanishing point rectification
- * Point drone towards calculated point.
+  * Vanishing point rectification
+  * Point drone towards calculated point.
 * Hardware Features:
- * 3D printed multicoptor
- * containers for holding Raspberry Pi + Pixhawk FC and other sensors.
- * Anti vibration pad or device which will bring down jello effect in camera.
-
+  * 3D printed multicoptor
+  * containers for holding Raspberry Pi + Pixhawk FC and other sensors.
+  * Anti vibration pad or device which will bring down jello effect in camera.
 
 Any other features if added will be updated over time
