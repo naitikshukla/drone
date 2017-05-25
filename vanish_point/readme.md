@@ -18,5 +18,6 @@ It contains above 2 files.
 | 4  | <img src="/vanish_point/hough.jpg" width="300">  | Hough Transformation |
 | 5  | <img src="/vanish_point/circle.jpg" width="300">  | Finding Intersection |
 | 6  | <img src="/vanish_point/corridor_6.jpg" width="300">  | Finding final grid with maximum intersection |
+| 7  | <img src="/vanish_point/final.jpg" width="300">  | Image for direction input given to drone |
 <br>
 **Code is working condition but detail for movement will be updated in time**
