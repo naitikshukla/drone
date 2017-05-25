@@ -7,6 +7,8 @@ This Folder is for Vanishing point based navigation of drone.
 
 It contains above 2 files.
 
+# Output
+Green box defines selected grid and center,left and right points in grid:
 ![Final Output](/vanish_point//corridor_6.jpg)
 
 
