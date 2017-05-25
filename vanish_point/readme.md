@@ -7,16 +7,16 @@ This Folder is for Vanishing point based navigation of drone.
 
 It contains above 2 files.
 
-# Output
+# Steps in Transform
 <p>Green box defines selected grid and center,left and right points in grid.</p><br>
 
 | Step  | Output | Details
 | ------------- | ------------- | ------------- |
-| 1  | <img src="/vanish_point/opening.jpg" width="250">  | Input Image |
-| 2  | <img src="/vanish_point/opening.jpg" width="250">  | morphologyEx Image (erode, then dilate) |
-| 3  | <img src="/vanish_point/canny.jpg" width="250">  | Canny edge detection |
-| 4  | <img src="/vanish_point/hough.jpg" width="250">  | Hough Transformation |
-| 5  | <img src="/vanish_point/circle.jpg" width="250">  | Finding Intersection |
-| 6  | <img src="/vanish_point/corridor_6.jpg" width="250">  | Finding final grid with maximum intersection |
+| 1  | <img src="/vanish_point/input.jpg" width="300">  | Input Image |
+| 2  | <img src="/vanish_point/opening.jpg" width="300">  | morphologyEx Image (erode, then dilate) |
+| 3  | <img src="/vanish_point/canny.jpg" width="300">  | Canny edge detection |
+| 4  | <img src="/vanish_point/hough.jpg" width="300">  | Hough Transformation |
+| 5  | <img src="/vanish_point/circle.jpg" width="300">  | Finding Intersection |
+| 6  | <img src="/vanish_point/corridor_6.jpg" width="300">  | Finding final grid with maximum intersection |
 <br>
 **Code is working condition but detail for movement will be updated in time**
