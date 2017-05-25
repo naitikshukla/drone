@@ -8,7 +8,7 @@ This Folder is for Vanishing point based navigation of drone.
 It contains above 2 files.
 
 # Output
-Green box defines selected grid and center,left and right points in grid:
+Green box defines selected grid and center,left and right points in grid
 Step | Output | Details
 ---- | ------ | -------
 1 | blam | Input Image
