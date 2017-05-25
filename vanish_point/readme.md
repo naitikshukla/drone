@@ -9,8 +9,10 @@ It contains above 2 files.
 
 # Output
 Green box defines selected grid and center,left and right points in grid:
+
+<img src="/vanish_point/corridor_6.jpg" width="200">
 ![Final Output](/vanish_point//corridor_6.jpg)
-img[alt=Final Output] { width: 200px; }
+
 
 
 **Code is working condition but detail for movement will be updated in time**
