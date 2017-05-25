@@ -11,8 +11,8 @@ It contains above 2 files.
 <p>Green box defines selected grid and center,left and right points in grid.</p>
 </n>
 </n>
-| Step | Output | Details |
-| ---- | ------ | ------- |
+| Step  | Output  | Details  |
+| ----- | ------- | -------- |
 | 1 | blam | Input Image |
 | 2 | <img src="/vanish_point/opening.jpg" width="250"> | morphologyEx Image (erode, then dilate) |
 | 3 | <img src="/vanish_point/canny.jpg" width="250"> | Canny edge detection |
