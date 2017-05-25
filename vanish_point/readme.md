@@ -12,7 +12,7 @@ It contains above 2 files.
 </n>
 </n>
 | Step  | Output  | Details  |
-| ----- | ------- | -------- |
+| --- | --- | --- |
 | 1 | blam | Input Image |
 | 2 | <img src="/vanish_point/opening.jpg" width="250"> | morphologyEx Image (erode, then dilate) |
 | 3 | <img src="/vanish_point/canny.jpg" width="250"> | Canny edge detection |
@@ -21,7 +21,7 @@ It contains above 2 files.
 | 6 | <img src="/vanish_point/corridor_6.jpg" width="250"> | Finding final grid with maximum intersection |
 
 
-| Step  | Output |
+| Step  | Output | Details
 | ------------- | ------------- |
 | 1  | <img src="/vanish_point/opening.jpg" width="250">  |
 | 2  | <img src="/vanish_point/canny.jpg" width="250">  |
