@@ -22,8 +22,8 @@ It contains above 2 files.
 
 
 | Step  | Output | Details
-| ------------- | ------------- |
-| 1  | <img src="/vanish_point/opening.jpg" width="250">  |
-| 2  | <img src="/vanish_point/canny.jpg" width="250">  |
+| ------------- | ------------- | ------------- |
+| 1  | <img src="/vanish_point/opening.jpg" width="250">  | morphologyEx Image (erode, then dilate) |
+| 2  | <img src="/vanish_point/canny.jpg" width="250">  | Canny edge detection |
 
 **Code is working condition but detail for movement will be updated in time**
