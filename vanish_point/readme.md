@@ -9,9 +9,15 @@ It contains above 2 files.
 
 # Output
 Green box defines selected grid and center,left and right points in grid:
+Step | Output | Details
+---- | ------ | -------
+1 | blam | Input Image
+2 | <img src="/vanish_point/opening.jpg" width="250"> | morphologyEx Image (erode, then dilate)
+3 | <img src="/vanish_point/canny.jpg" width="250"> | Canny edge detection
+4 | <img src="/vanish_point/hough.jpg" width="250"> | Hough Transformation
+5 | <img src="/vanish_point/circle.jpg" width="250"> | Finding Intersection
+6 | <img src="/vanish_point/corridor_6.jpg" width="250"> | Finding final grid with maximum intersection
 
-<img src="/vanish_point/corridor_6.jpg" width="200">
-![Final Output](/vanish_point//corridor_6.jpg)
 
 
 
