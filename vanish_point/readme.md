@@ -7,7 +7,7 @@ This Folder is for Vanishing point based navigation of drone.
 
 It contains above 2 files.
 
-![Final Output](/corridor_6.jpg)
+![Final Output](/vanish_point//corridor_6.jpg)
 
 
 **Code is working condition but detail for movement will be updated in time**
