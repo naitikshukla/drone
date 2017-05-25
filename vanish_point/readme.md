@@ -21,9 +21,9 @@ It contains above 2 files.
 | 6 | <img src="/vanish_point/corridor_6.jpg" width="250"> | Finding final grid with maximum intersection |
 
 
-| First Header  | Second Header |
+| Step  | Output |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| 1  | <img src="/vanish_point/opening.jpg" width="250">  |
+| 2  | <img src="/vanish_point/canny.jpg" width="250">  |
 
 **Code is working condition but detail for movement will be updated in time**
