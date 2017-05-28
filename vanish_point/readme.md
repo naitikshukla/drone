@@ -1,8 +1,8 @@
 Sno | File Name | Description
 --- | --------- | -----------
 1 | **VanishingPoint.py** | which contains all the functions defined in it for detecting lines and intersection and finding grid with max intersection.
-2 | **Main.py** | Python code which will call previos functions and utilize it for movement of drone.
-
+2 | Main.py | Python code which will call previos functions and utilize it for movement of drone.
+3 | **Mainv1.py** | Version 1.1 of previous main.py <br> extra features of drone simulation and grid search and command to navigate
 This Folder is for Vanishing point based navigation of drone.
 
 It contains above 2 files.
